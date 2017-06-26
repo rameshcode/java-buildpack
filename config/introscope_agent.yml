@@ -16,5 +16,5 @@
 # Configuration for the CA Wily framework
 ---
 repository_root: "http://manra09-gx7010/pcffiles/"
-version: 9.7.+
+version: 10.5.2_15
 default_agent_name: ! '$(ruby -e "require ''json'' ; puts JSON.parse(ENV[''VCAP_APPLICATION''])[''application_name'']")'
